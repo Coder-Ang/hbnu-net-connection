@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 22 Mar 2025 10:03:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 86
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin,Authorization,Access-Control-Allow-Origin,Access-Control-Allow-Headers,Content-Type,User-Auth
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Access-Control-Allow-Origin,Access-Control-Allow-Headers,Content-Type
+SRunFlag: SRun portal server golang version
+
+{
+  "code": 0,
+  "message": "success",
+  "Pc": "",
+  "Mobile": "",
+  "Redirect": true,
+  "CloseLogout": false
+}

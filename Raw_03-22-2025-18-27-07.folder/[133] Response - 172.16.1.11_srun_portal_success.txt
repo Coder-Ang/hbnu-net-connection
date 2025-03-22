@@ -1,0 +1,108 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 22 Mar 2025 10:03:53 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 4300
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin,Authorization,Access-Control-Allow-Origin,Access-Control-Allow-Headers,Content-Type,User-Auth
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Access-Control-Allow-Origin,Access-Control-Allow-Headers,Content-Type
+SRunFlag: SRun portal server golang version
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="湖北师范大学">
+    <title>湖北师范大学</title>
+    <script src="./static/themes/pro/js/redirect.js?v=7648b8bbbcf4fc4a"></script>
+    <link type="images/x-icon" rel="shortcut icon" href="./static/themes/pro/images/favicon.ico?v=7648b8bbbcf4fc4a">
+    <link rel="stylesheet" href="./static/themes/pro/lib/material/material.min.css?v=7648b8bbbcf4fc4a">
+    <link rel="stylesheet" href="./static/themes/pro/lib/ionicons/ionicons.min.css?v=7648b8bbbcf4fc4a">
+    <link rel="stylesheet" href="./static/themes/pro/css/components.css?v=7648b8bbbcf4fc4a">
+    <link rel="stylesheet" href="./static/themes/pro/css/main.css?v=7648b8bbbcf4fc4a">
+    <link rel="stylesheet" href="./static/themes/pro/css/custom.css?v=7648b8bbbcf4fc4a">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="./static/themes/pro/css/patch.css?v=7648b8bbbcf4fc4a">
+    <script src="./static/themes/pro/lib/patch/respond.min.js?v=7648b8bbbcf4fc4a"></script>
+    <script src="./static/themes/pro/lib/patch/rem.min.js?v=7648b8bbbcf4fc4a"></script>
+    <script src="./static/themes/pro/lib/patch/html5shiv-printshiv.min.js?v=7648b8bbbcf4fc4a"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div ref="main" id="app" class="main">
+    
+    <header class="header" ref="header">
+        <img src="./static/themes/pro/images/logo/logo.png?v=7648b8bbbcf4fc4a" class="logo" alt="logo">
+    </header>
+    
+    <section class="section" ref="section">
+        
+        <div class="panel panel-login">
+            
+            <div class="panel-row title-container">
+                <h3 class="title">校园网认证系统</h3>
+            </div>
+            
+            
+            <div class="panel-row">
+                
+                <div id="show-dial-log">
+                    <span>显示代拨结果</span>
+                </div>
+            </div>
+            
+            <div class="panel-row">
+                <div class="reminder"></div>
+            </div>
+            
+            <div class="panel-row">
+                <button type="button" class="btn-logout" id="logout">注销</button>
+                
+                <button type="button" class="btn-self-service" id="self-service">自助服务</button>
+                
+            </div>
+        </div>
+        
+        <div class="panel panel-notice" id="notice-container">
+            <div class="panel-row title-container">
+                <h3 class="title" id="notice-title"></h3>
+            </div>
+            <div class="content" id="notice-content"></div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="copyright">© 2020 SRUN SOFTWARE - ALL RIGHTS RESERVED. 浙ICP备11003220号</p>
+    </footer>
+</div>
+
+<script>
+    var CONFIG = {
+        page   : 'success',
+        acid   : "1",
+        ip     : "10.40.159.36",
+        nas    : "",
+        mac    : "",
+        url    : "",
+        lang   : "zh-CN" || 'zh-CN',
+        isIPV6 :  false ,
+        portal : {"AuthIP":"","AuthIP6":"","ServiceIP":"https://172.16.1.13:8800","DoubleStackPC":false,"DoubleStackMobile":false,"AuthMode":false,"CloseLogout":false,"MacAuth":true,"RedirectUrl":true,"OtherPCStack":"IPV4","OtherMobileStack":"IPV4","MsgApi":"new","PublicSuccessPages":true,"TrafficCarry":1000,"UserAgreeSwitch":false,"DialSwitch":true,"MultiAuthSwitch":false,"AccountFilter":""},
+        notice : "list"
+    };
+</script>
+<script src="./static/themes/pro/lib/all.min.js?v=20180302?v=7648b8bbbcf4fc4a"></script>
+<script src="./static/themes/pro/lib/patch/patch.es6.js?v=7648b8bbbcf4fc4a"></script>
+<script src="./static/themes/pro/js/creater.js?v=7648b8bbbcf4fc4a"></script>
+<script src="./static/themes/pro/js/lang.js?v=7648b8bbbcf4fc4a"></script>
+<script src="./static/themes/pro/js/Utils.js?v=7648b8bbbcf4fc4a"></script>
+<script src="./static/themes/pro/js/Portal.js?v=7648b8bbbcf4fc4a"></script>
+<script src="./static/themes/pro/js/main.js?v=7648b8bbbcf4fc4a"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 22 Mar 2025 10:03:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 577
+Connection: keep-alive
+Srun-Server: SRunCGIAuthIntfSvr V1.18 B20240913
+X-Frame-Options: SAMEORIGIN
+
+jQuery1124016786461042002543_1742637706913({"ServerFlag":0,"ServicesIntfServerIP":"172.16.1.13","ServicesIntfServerPort":"8001","access_token":"35eb68148d57943d6061897c5ddee141c8eb56232bbf22f3bc95daf19421bb6d","checkout_date":1743436800,"client_ip":"10.40.159.36","ecode":0,"error":"ok","error_msg":"","online_ip":"10.40.159.36","ploy_msg":"E0000: Login is successful.","real_name":"徐正阳","remain_flux":0,"remain_times":0,"res":"ok","srun_ver":"SRunCGIAuthIntfSvr V1.18 B20240913","suc_msg":"login_ok","sysver":"1.01.20240913","username":"19546871977","wallet_balance":0})

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 22 Mar 2025 10:03:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 914
+Connection: keep-alive
+Srun-Server: SRunCGIAuthIntfSvr V1.18 B20240913
+X-Frame-Options: SAMEORIGIN
+
+jQuery11240006339098165412116_1742637833860({"ServerFlag":4294967041,"add_time":1742637832,"all_bytes":0,"billing_name":"移动-通用计费策略","bytes_in":0,"bytes_out":0,"checkout_date":1743436800,"domain":"ipoe-wx-hy","email":"","error":"ok","group_id":"15","keepalive_time":1742637834,"online_device_detail":"{\"34418224\":{\"class_name\":\"Macintosh\",\"ip\":\"10.40.159.36\",\"ip6\":\"::\",\"os_name\":\"Mac OS\",\"rad_online_id\":\"34418224\"}}","online_device_total":"1","online_ip":"10.40.159.36","online_ip6":"::","package_id":"0","phone":"19546871977","pppoe_dial":"","products_id":"37","products_name":"移动-49元20M宽带（融合）","real_name":"徐正阳","remain_bytes":0,"remain_seconds":0,"sum_bytes":52420115198,"sum_seconds":279815,"sysver":"1.01.20240913","user_balance":0,"user_charge":0,"user_expire_time":0,"user_mac":"96:e6:59:08:05:99","user_name":"19546871977","wallet_balance":0})

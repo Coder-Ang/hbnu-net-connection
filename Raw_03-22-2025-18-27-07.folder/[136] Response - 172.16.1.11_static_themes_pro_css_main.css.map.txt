@@ -1,0 +1,99 @@
+HTTP/1.1 404 Not Found
+Server: nginx
+Date: Sat, 22 Mar 2025 10:03:54 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 2023
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin,Authorization,Access-Control-Allow-Origin,Access-Control-Allow-Headers,Content-Type,User-Auth
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Access-Control-Allow-Origin,Access-Control-Allow-Headers,Content-Type
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="/static/themes/pro/images/favicon.png">
+    <style type="text/css">
+        *, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            background-color: #fff;
+        }
+
+        header, footer {
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            background-repeat: no-repeat;
+            -webkit-background-size: 100px 100px;
+            background-size: 100px 100px;
+            background-position: center center;
+            text-align: center;
+            font-size: 200px;
+            padding: 250px 0 70px;
+            font-weight: normal;
+            text-shadow: 0 1px 2px #ddd;
+        }
+
+        header {
+            padding: 100px 0;
+        }
+
+        footer {
+            line-height: 1.8;
+            text-align: center;
+            padding: 50px 0;
+            color: #999;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 32px;
+            margin-top: 30px;
+            color: #a94442;
+        }
+
+        a {
+            color: #444;
+            text-decoration: none;
+        }
+
+        .backdrop {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            box-shadow: inset 0 0 100px #ddd;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1 class="logo">404</h1>
+    <div class="description">
+    
+    </div>
+</header>
+<footer>
+    <div class="author">
+        &copy; 2022 All Rights Reserved | Design by <a href="https://srun.com/" target="_blank">Srunsoft</a>
+    </div>
+</footer>
+<div class="backdrop"></div>
+</body>
+</html>

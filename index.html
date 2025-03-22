@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>校园网自动连接工具</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>校园网自动连接工具</h1>
+      
+      <!-- 重新设计的进度条和取消按钮 -->
+      <div id="inline-progress" style="display: none; margin: 15px 0; border: none; padding: 16px; background-color: #ffffff; border-radius: 8px; position: relative; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+          <div id="inline-progress-text" style="font-weight: 500; color: #4CAF50; font-size: 14px;">处理中...</div>
+          <div style="flex-shrink: 0;">
+            <button id="cancel-operation-btn" style="width: 24px; height: 24px; padding: 0; background-color: #f0f0f0; color: #666; border: none; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.1);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div style="height: 8px; background-color: #f5f5f5; border-radius: 4px; overflow: hidden; position: relative;">
+          <div id="inline-progress-bar" style="height: 100%; width: 0%; background-color: #4CAF50; transition: width 0.5s ease; position: absolute; top: 0; left: 0; border-radius: 4px;"></div>
+        </div>
+        <div style="text-align: right; margin-top: 6px;">
+          <div id="inline-progress-percent" style="font-size: 12px; color: #757575; display: inline-block;">0%</div>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" placeholder="输入用户名">
+      </div>
+      
+      <div class="form-group">
+        <label for="password">密码:</label>
+        <input type="password" id="password" placeholder="输入密码">
+      </div>
+      
+      <div class="form-group">
+        <label for="server">服务器:</label>
+        <input type="text" id="server" placeholder="服务器地址" value="172.16.1.11">
+      </div>
+      
+      <div class="form-group">
+        <label for="ac_id">AC_ID:</label>
+        <input type="text" id="ac_id" placeholder="AC_ID" value="1">
+      </div>
+      
+      <div class="form-group checkbox">
+        <input type="checkbox" id="autoConnect">
+        <label for="autoConnect">自动连接</label>
+      </div>
+      
+      <div class="form-group checkbox">
+        <input type="checkbox" id="autoLaunch">
+        <label for="autoLaunch">开机启动</label>
+      </div>
+      
+      <div class="button-group">
+        <button id="loginBtn" class="btn btn-primary">登录</button>
+        <button id="logoutBtn" class="btn btn-danger">注销</button>
+      </div>
+      
+      <!-- 现代化的状态显示区域 -->
+      <div class="status-container" style="margin-top: 20px; background-color: #f9f9f9; border-radius: 8px; padding: 15px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-weight: 500;">连接状态:</span>
+            <span id="connectionStatus" class="disconnected" style="padding: 3px 8px; border-radius: 12px; font-size: 12px; display: inline-block;">未连接</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-weight: 500;">处理状态:</span>
+            <span id="processStatus" style="padding: 3px 8px; border-radius: 12px; font-size: 12px; display: inline-block; background-color: #f0f0f0;">空闲</span>
+          </div>
+        </div>
+        <div style="border-top: 1px solid #eee; padding-top: 10px;">
+          <p style="margin: 0; font-size: 13px;">消息: <span id="message" style="color: #555;"></span></p>
+        </div>
+      </div>
+      
+      <div id="networkInfo" class="network-info">
+        <p>IP地址: <span id="ipAddress">未知</span></p>
+        <p>MAC地址: <span id="macAddress">未知</span></p>
+        <p>主机名: <span id="hostname">未知</span></p>
+      </div>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

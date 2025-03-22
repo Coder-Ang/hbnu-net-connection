@@ -1,0 +1,12 @@
+GET /cgi-bin/srun_portal?callback=jQuery1124016786461042002543_1742637706913&action=login&username=19546871977&password=%7BMD5%7Df170807c4f2293da0f342f4df6f99091&os=Mac+OS&name=Macintosh&double_stack=0&chksum=3ddcdb3948bba3e6880cd6bc7b29df5b309c49e5&info=%7BSRBX1%7D0mAuD5QXYidgm0RbJjs4VO2CKaWJSbWaPVJFUxBHWRjxndFPgURF9N5WVGOzlIdeiB5GQstD5%2F9IoZpJ3Q2PDPzY1%2BC324E9K66L%2F8TIaKpAm8xjb2Mlw56PHwfTlJUfF80E%2FnmeDwS%3D&ac_id=1&ip=10.40.159.36&n=200&type=1&_=1742637706916 HTTP/1.1
+Host: 172.16.1.11
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15
+Accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Referer: http://172.16.1.11/srun_portal_pc?ac_id=1&theme=pro
+Accept-Language: zh-CN,zh-Hans;q=0.9
+Priority: u=3, i
+Accept-Encoding: gzip, deflate
+Cookie: lang=zh-CN
+Connection: keep-alive
+

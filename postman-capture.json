@@ -1,0 +1,492 @@
+{
+    "info": {
+        "name": "Proxyman Code Generator: PostmanCollection2",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET /cgi-bin/get_challenge",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/cgi-bin/get_challenge?callback=jQuery1124016786461042002543_1742637706913&username=19546871977&ip=10.40.159.36&_=1742637706915",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/cgi-bin/get_challenge",
+                    "query": [
+                        {
+                            "value": "jQuery1124016786461042002543_1742637706913",
+                            "key": "callback"
+                        },
+                        {
+                            "value": "19546871977",
+                            "key": "username"
+                        },
+                        {
+                            "value": "10.40.159.36",
+                            "key": "ip"
+                        },
+                        {
+                            "value": "1742637706915",
+                            "key": "_"
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+                    },
+                    {
+                        "key": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_pc?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /cgi-bin/rad_user_info",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/cgi-bin/rad_user_info?callback=jQuery11240006339098165412116_1742637833860&ip=10.40.159.36&_=1742637833861",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/cgi-bin/rad_user_info",
+                    "query": [
+                        {
+                            "value": "jQuery11240006339098165412116_1742637833860",
+                            "key": "callback"
+                        },
+                        {
+                            "value": "10.40.159.36",
+                            "key": "ip"
+                        },
+                        {
+                            "value": "1742637833861",
+                            "key": "_"
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+                    },
+                    {
+                        "key": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_success?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /cgi-bin/rad_user_info",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/cgi-bin/rad_user_info?callback=jQuery1124016786461042002543_1742637706913&ip=10.40.159.36&_=1742637706917",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/cgi-bin/rad_user_info",
+                    "query": [
+                        {
+                            "value": "jQuery1124016786461042002543_1742637706913",
+                            "key": "callback"
+                        },
+                        {
+                            "value": "10.40.159.36",
+                            "key": "ip"
+                        },
+                        {
+                            "value": "1742637706917",
+                            "key": "_"
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+                    },
+                    {
+                        "key": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_pc?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /cgi-bin/srun_portal",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/cgi-bin/srun_portal?callback=jQuery1124016786461042002543_1742637706913&action=login&username=19546871977&password=%7BMD5%7Df170807c4f2293da0f342f4df6f99091&os=Mac+OS&name=Macintosh&double_stack=0&chksum=3ddcdb3948bba3e6880cd6bc7b29df5b309c49e5&info=%7BSRBX1%7D0mAuD5QXYidgm0RbJjs4VO2CKaWJSbWaPVJFUxBHWRjxndFPgURF9N5WVGOzlIdeiB5GQstD5%2F9IoZpJ3Q2PDPzY1%2BC324E9K66L%2F8TIaKpAm8xjb2Mlw56PHwfTlJUfF80E%2FnmeDwS%3D&ac_id=1&ip=10.40.159.36&n=200&type=1&_=1742637706916",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/cgi-bin/srun_portal",
+                    "query": [
+                        {
+                            "value": "jQuery1124016786461042002543_1742637706913",
+                            "key": "callback"
+                        },
+                        {
+                            "value": "login",
+                            "key": "action"
+                        },
+                        {
+                            "value": "19546871977",
+                            "key": "username"
+                        },
+                        {
+                            "value": "{MD5}f170807c4f2293da0f342f4df6f99091",
+                            "key": "password"
+                        },
+                        {
+                            "value": "Mac+OS",
+                            "key": "os"
+                        },
+                        {
+                            "value": "Macintosh",
+                            "key": "name"
+                        },
+                        {
+                            "value": "0",
+                            "key": "double_stack"
+                        },
+                        {
+                            "value": "3ddcdb3948bba3e6880cd6bc7b29df5b309c49e5",
+                            "key": "chksum"
+                        },
+                        {
+                            "value": "{SRBX1}0mAuD5QXYidgm0RbJjs4VO2CKaWJSbWaPVJFUxBHWRjxndFPgURF9N5WVGOzlIdeiB5GQstD5/9IoZpJ3Q2PDPzY1+C324E9K66L/8TIaKpAm8xjb2Mlw56PHwfTlJUfF80E/nmeDwS=",
+                            "key": "info"
+                        },
+                        {
+                            "value": "1",
+                            "key": "ac_id"
+                        },
+                        {
+                            "value": "10.40.159.36",
+                            "key": "ip"
+                        },
+                        {
+                            "value": "200",
+                            "key": "n"
+                        },
+                        {
+                            "value": "1",
+                            "key": "type"
+                        },
+                        {
+                            "value": "1742637706916",
+                            "key": "_"
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01"
+                    },
+                    {
+                        "key": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_pc?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /srun_portal_success",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/srun_portal_success?ac_id=1&theme=pro",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/srun_portal_success",
+                    "query": [
+                        {
+                            "value": "1",
+                            "key": "ac_id"
+                        },
+                        {
+                            "value": "pro",
+                            "key": "theme"
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                    },
+                    {
+                        "key": "Upgrade-Insecure-Requests",
+                        "value": "1"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_pc?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=0, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /static/themes/pro/css/main.css.map",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/static/themes/pro/css/main.css.map",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/static/themes/pro/css/main.css.map"
+                },
+                "header": [
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_success?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /v1/srun_portal_detect",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/v1/srun_portal_detect",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/v1/srun_portal_detect"
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "key": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_success?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "GET /v2/srun_portal_message",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://172.16.1.11/v2/srun_portal_message?per-page=100",
+                    "protocol": "http",
+                    "host": "172.16.1.11",
+                    "path": "/v2/srun_portal_message",
+                    "query": [
+                        {
+                            "value": "100",
+                            "key": "per-page"
+                        }
+                    ]
+                },
+                "header": [
+                    {
+                        "key": "User-Agent",
+                        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"
+                    },
+                    {
+                        "key": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "key": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "key": "Referer",
+                        "value": "http://172.16.1.11/srun_portal_success?ac_id=1&theme=pro"
+                    },
+                    {
+                        "key": "Accept-Language",
+                        "value": "zh-CN,zh-Hans;q=0.9"
+                    },
+                    {
+                        "key": "Priority",
+                        "value": "u=3, i"
+                    },
+                    {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate"
+                    },
+                    {
+                        "key": "Cookie",
+                        "value": "lang=zh-CN"
+                    }
+                ]
+            }
+        }
+    ]
+}
